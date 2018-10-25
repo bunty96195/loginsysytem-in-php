@@ -5,7 +5,8 @@
 <?php
   $usr = "admin";
   $psw = "password";
-
+  $username = '$_POST[username]';
+  $password = '$_POST[Password]';
   //$usr == $username && $psw == $password
   session_start();
   if ( ($_POST['username']=="admin" && $_POST['Password']=="password")) {
